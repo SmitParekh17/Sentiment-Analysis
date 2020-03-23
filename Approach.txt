@@ -1,0 +1,39 @@
+1) Importing packages and Data Loading
+2) Exploratory Data Analysis
+	i) Checking for null values and dropping them
+	ii) Checking for class imbalance
+	iii) Creating Wordcloud based on each sentiments
+	iv) Checking for Retweets
+	v) Finding Hashtags and forming wordcloud and frequency distribution for it
+	vi) Finding Happy Emoticons and Sad emoticons and finding frequency distribution of it
+3) Data Preprocessing
+	i) Append train and test data
+	ii) Remove User handles
+	iii) Remove #
+	iv) Remove Stopwords and punctuations
+	v) Remove numbers and words having length less than 3
+4) Exploratory Data Analysis
+	i) Top words in the tweet
+	ii) Bi-grams based on sentiments
+	iii) Tri-grams based on sentiments
+5) Approach 1
+	i) Stemming and then Count Vectorizer
+		a) Applying Base models
+		b) Applying Optimized models
+	ii) Stemming and then Tf-idfVectorizer
+		a) Applying Base models
+		b) Applying Optimized models
+6) Approach 2
+	i) Lemmatizer and then Count Vectorizer
+		- Applying models
+	ii) Lemmatizer and then Tf-IDF Vectorizer
+		- Applying models
+Note: i) Base models used:
+		a) Logistic Regression
+		b) Decision Tree Classifier
+		c) Random Forest Classifier
+		d) Multinomial NB
+		e) Gaussian NB
+		f) Adaboost Classifier
+		g) XGBclassifier
+		
